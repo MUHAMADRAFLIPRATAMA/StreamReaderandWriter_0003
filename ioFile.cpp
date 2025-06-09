@@ -6,3 +6,5 @@ using namespace std;
 int main(){
     string baris;
 
+    //operasi file dalam mode nulis.
+    ofstream outfile;
