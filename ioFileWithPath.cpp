@@ -32,4 +32,8 @@ int main(){
 
     //operasi file dalam mode membaca
     ifstream infile;
+    //menunjuk ke sebuah file untuk membuka
+    infile.open(namaFile +".txt");
+
+    cout << endl << ">= Membuka dan membaca file" << endl;
     
